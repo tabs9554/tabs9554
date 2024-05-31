@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+   
+}
+#nav-flag{
+    height:20px;
+     position: absolute;  
+     top: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+   margin-left: 10%;
+}
+a:hover{
+    border: 1px solid white;
+    background: transparent;
+  
+}
+#amazonlogo:hover{
+    border: 1px solid white;
+    
+}
+input[type=text]{
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 45%;
+}
+#btn{
+    
+    padding: 10px 10px;
+    margin-top: 8px;
+    background: orange;
+    margin-left: -3px;
+    font-size: 17px;
+    border: none;
+}
+#btn1{
+    padding: 10px 10px;
+    margin-top: 8px;
+    background: #ddd;
+    margin-right: -3.5px;
+    font-size: 17px;
+    border:  1px solid orange;
+}
+.box1{
+    background-color: #063970;
+    height: 50px;
+    width: 100%;
+   
+}
+.box2{
+    background-image: url(61gFwnvmdHL._SX1500_.jpg);
+    height: 700px;
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+p a{
+    color: blue;
+    font-size: 15px;
+}
+p{
+    position: absolute;
+    top: 55%;
+left: 2%;
+    padding: 10px 20px;
+    text-align: center;
+    width: 1250px;
+    height: 20px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1{
+    
+    width: 23%;
+   
+position: absolute;
+top: 65%;
+left: 2%;
+background-color: white;
+    height: 400px;
+ 
+   
+   
+}
+.gaming{
+    height:120px; 
+    width:40%;
+} 
+#amazon-logo{
+    height: 30px;
+    position: absolute;
+     top: 20px;
+      left: 2.5%;
+}
+#sell{
+    color: white;
+     border: none;
+      background: none;
+       margin-left: -0.1%;
+}
+h1{
+    font-weight: 100; 
+    padding-left: 15px;
+     
+}
+#images{
+    padding-top: 15px;
+    padding-left: 15px;
+  
+}
+
+#images2{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+#img1{
+    height: 120px;
+    width: 40%;
+}
+
+.div2{
+    width: 23%;
+position: absolute;
+top: 65%;
+left: 27%;
+background-color: white;
+    height: 400px;
+
+   
+}
+#h6-2{
+    position: absolute;
+left: 50px; 
+font-size: 15px;
+  color: grey;
+  font-weight: 100;
+}
+#h6-0{
+    position: absolute;
+    left: 59px;
+     font-size: 15px;  
+     color: grey;
+      font-weight: 100;
+}
+#h6-1{
+    position: absolute;
+left: 170px; 
+font-size: 15px;
+  color: grey;
+  font-weight: 100;
+}
+.div3{
+    width: 23%;
+position: absolute;
+top: 65%;
+left: 52%;
+background-color: white;
+    height: 400px;
+  
+   
+}
+#div3-img{
+    height:300px;
+     width:270px;
+      padding-top: 15px;
+    padding-left: 15px;
+}
+.div4{
+    width: 23%;
+position: absolute;
+top: 65%;
+left: 76%;
+background-color: white;
+    height: 400px;
+  
+   
+}
+.box3{
+    background-color: violet;
+    height: 700px;
+    width: 100%;
+}
+.paper1{
+    width: 23%;
+   
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    background-color: white;
+        height: 400px;
+     
+}
+#headpaper{
+    font-weight: 100;
+     padding-left: 15px;
+      
+       font-size: 30px;
+}
+.paper2{
+    width: 23%;
+    position: absolute;
+    top: 130%;
+    left: 27%;
+    background-color: white;
+        height: 400px;
+}
+#paper-img{
+    height:300px;
+     width:270px;
+     padding-top: 15px;
+padding-left: 15px;
+}
+.paper3{
+    
+        width: 23%;
+    position: absolute;
+    top: 130%;
+    left: 52%;
+    background-color: white;
+        height: 400px;
+      
+       
+    
+}
+.paper4{
+    
+        width: 23%;
+    position: absolute;
+    top: 130%;
+    left: 76%;
+    background-color: white;
+        height: 400px;
+      
+       
+    
+}
+.paper5{
+    width: 97%;
+    position: absolute;
+    top: 195%;
+    left: 2%;
+    background-color: white;
+        height: 250px;
+      
+}
+.box4{
+    
+    height: 150px;
+    border: 1px solid darkgray;
+    margin-top: 2%;
+    
+}
+#btn-1{
+    background-color: rgba(255, 166, 0, 0.884);
+    border-radius: 5px;
+    border: 1px solid orange;
+    
+    width: 20%;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 40%;
+    
+}
+#btn-1:hover{
+    border: 1px solid white;
+    color: white;
+}
+.box5{
+    background-color:#113d61;
+    height: 50px;
+}
+h4{
+    text-align: center; 
+     font-size: 15px;
+     font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif; 
+      color: white;
+       padding-top: 10px;
+}
+.box6{
+    height: 500px;
+    background-color:#0d2e49;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotter1{
+    width: 15%;
+    height: 300px;
+    text-align: justify;
+    color: #ddd;
+    position: absolute;
+    left: 15%;
+    margin-top: 1%;
+    padding: 35px 10px;
+
+}
+#head{
+    font-size: 17px;
+     font-weight: bold;
+    margin-left: -7%;
+}
+.fotter2{
+    width: 15%;
+    height: 300px;
+    text-align: justify;
+    color: #ddd;
+    position: absolute;
+    left: 35%;
+    margin-top: 3%;
+}
+.fotter3{
+    width: 20%;
+    height: 300px;
+    text-align: justify;
+    color: #ddd;
+    position: absolute;
+    left: 55%;
+    margin-top: 3%;
+}
+.fotter4{
+    width: 15%;
+    height: 300px;
+    text-align: justify;
+    color: #ddd;
+    position: absolute;
+    left: 75%;
+    margin-top: 3%;
+}
+.dropbtn{
+position: absolute;
+left: 35%;
+margin-top: 29%;
+padding: 10px 20px;
+border: 1px solid white;
+background: transparent;
+color: white;
+}
+.dropbtn:hover{
+    border: 1px solid orange;
+}
+.dropbtn1{
+    position: absolute;
+    left: 50%;
+    margin-top: 29%;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    }
+    .dropbtn1:hover{
+        border: 1px solid orange;
+    }
+    .dropbtn2{
+        position: absolute;
+        left: 65%;
+        margin-top: 29%;
+        padding: 10px 20px;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        }
+        .dropbtn2:hover{
+            border: 1px solid orange;
+        }
+        h3{
+            font-size: 17px;
+             font-weight: 100;
+              padding-top: 15px;
+        }
+        #flag{
+            height:15px;
+            position: absolute;
+             top: 10px;
+        }
+        #united{
+            color: white;
+            font-size: 12px;
+            padding-left: 32px;
+        }
