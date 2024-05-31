@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //FILTER in ARRAY:
+
+// let arr = [12, 4, 2, 50, 78, 9, 30];
+// result [12,50,78,30]
+
+// let arr1 = arr.filter(val => val > 10);
+// console.log(arr1); //arrowFunc
+
+// let arr2 = arr.filter(function (val) {
+//     return val < 10;
+// });
+// console.log(arr2); //normalFunc
+
+//////////////////////////////////////////////////////////////////////////////
+
+
+//FILTER in Object
+
+// let team = [
+//     {
+//         fullname: "Ram",
+//         position: "Software Dev"
+//     },
+//     {
+//         fullname: "DAvid",
+//         position: "System Eng"
+//     },
+//     {
+//         fullname: "Rohit",
+//         position: "Software Dev"
+//     },
+//     {
+//         fullname: "Aditya",
+//         position: "Manager"
+//     }
+// ];
+// let developer = team.filter(val => val.position == "Software Dev");
+// console.log(developer);
+
+// let arr4 = [11,20,47,29,12,58,90,4];
+// let arr5 = arr4.filter(val => val % 2 == 0)
+// console.log(arr5)
+
+// let student = [
+//     {
+//         name : "tabassum",
+//         marks : 50
+//     },
+//     {
+//         name : "abhi",
+//         marks : 90
+//     },
+//     {
+//         name : "lucky",
+//         marks : 78
+//     },
+//     {
+//         name : "rahul",
+//         marks : 87
+//     },
+
+// ]
+// let number = student.filter(val => val.marks > 60)
+// console.log(number)
+
+// const[a,b] = [1,2,3];
+// console.log(a,b);
+
+// const {x,y: z} = {x:1 , y : 2};
+// console.log(z);
+
+// const user = {firstname :"tabbu", age : 34, city : "new york"};
+// const{firstname,...rest} = user;
+// console.log(rest);
+
+
+// const arr0 = [1,2,3,4,5,6,7];
+// const arr1 = [10,20,30,40,50,...arr0]
+// console.log(arr1);
+
+// const person = {
+//     fname: "john",
+//     age : 34,
+//     address : {
+//         city : "New york",
+//         zip : 10001
+//     }
+// }
+
+// const {address :{city}} = person;
+// console.log(city);
+/*You have an array of user objects with name and age properties. Write a function called filterUsersByAge that takes an array of user objects and a minimum age as input, and returns an array containing only the users who are older than or equal to the specified minimum age.*/
+
+// let array  = [
+//             { name: "Alice", age: 25 },
+//             { name: "Bob", age: 20 },
+//             { name: "Charlie", age: 30 },
+//             { name: "David", age: 15 }    
+
+// ]
+//  let minAge = prompt("Enter the minimum age:");
+//  let maxAge = prompt("Enter the maximum age:");
+ /*You have an array of user objects with name and age properties. Write a function called filterUsersByAgeRange that takes an array of user objects, a minimum age, and a maximum age as input, and returns an array containing only the users whose age falls within the specified range.*/
+// let number = array.filter(user  => user.age >= minAge  && user.age <= maxAge)
+// console.log(number)
+
+/*You have an array of user objects with name and city properties. Write a function called filterUsersByCity that takes an array of user objects and a city name as input, and returns an array containing only the users who live in the specified city*/
+
+let array  = [
+            { name: "Alice", city: "Kanpur" },
+            { name: "Bob", city: "jaunpur" },
+            { name: "Charlie", city: "allahabad" },
+            { name: "David", city: "lucknow"}    
+
+]
+ 
+ let position = prompt("enter the name")
+  let number = array.filter(user  => user.city == position);
+  console.log(number)
+
+// function filterUserByAge(user){
+    
+//     return array.filter(user  => user.age <= minAge)
+// }
+// console.log(filterUserByAge(20))
+// let printage = array.filter(val => val.age1 > 10);
+// console.log(printage);
+// function filterUsersByAge(users) {
+//             const minAge = parseInt(prompt("Enter the minimum age:"), 10);
+//             if (isNaN(minAge)) {
+//                 alert("Please enter a valid number.");
+//                 return [];
+//             }
+//             return users.filter(user => user.age >= minAge);
+//         }
+
+//         // Example usage:
+//         const users = [
+//             { name: "Alice", age: 25 },
+//             { name: "Bob", age: 20 },
+//             { name: "Charlie", age: 30 },
+//             { name: "David", age: 15 }
+//         ];
+
+//         const filteredUsers = filterUsersByAge(users);
+//         console.log(filteredUsers);
+         
+        
+       
+        
+    </script>
+</body>
+</html>

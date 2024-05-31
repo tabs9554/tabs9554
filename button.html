@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="ul">
+        <li>List 1</li>
+        <li>List 2</li>
+    </ul>
+    
+    <!--<h1 id="h1">First heading</h1>-->
+    <button id ="btn">Click here to list item</button>
+    <script>
+         
+     /* let h1 = document.getElementById("h1")
+         btn.addEventListener('click', function (){
+        h1.style.color = "red"
+       })
+       console.log(btn);*/
+       let ul = document.getElementById("ul")
+
+       let item1 = document.createElement("li")
+       let item2 = document.createElement("li")
+       let btn = document.getElementById("btn");
+       item1.textContent = "list 3";
+       item2.textContent = "list 4"
+      btn.addEventListener('click',function(){
+        ul.appendChild(item1);
+        ul.appendChild(item2);
+       })
+       window.addEventListener("DOMContentLoaded",function(){
+        console.log("dom tree is loaded")
+       })
+       window.addEventListener('load' , function(){
+        console.log("Dom tree fully loaded")
+       })
+       
+//keydown -window,scroll
+window.addEventListener('keydown' , function(event){
+    console.log(event.key);//check user what is type in keyword
+})
+window.addEventListener('scroll', function(){
+    console.log("page is scroll");
+})
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" click="btnclick()">Click me!</button>
+    <script>
+        // when we add  inline html then we add onclick event
+    
+    ///let btn = document.getElementById("btn");
+    //function btnclick(onclick){
+    //   alert("button was click")
+    //}
+    
+    //second trick
+    //function btnclick(){
+    //   console.log("button was clicked..")
+    //}
+    let btn = document.getElementById("btn");
+    btn.addEventListener('click' ,function(){
+     console.log("button was clicked");
+    })
+    
+    btn.addEventListener("mouseover" ,function(){
+     console.log("mouseover is clicked")
+    })
+    btn.addEventListener('contextmenu' , function(){
+        console.log("button-click")
+    })
+    
+    btn.addEventListener('mousedown',mouseDown);
+    btn.addEventListener('mouseup' , mouseUp);
+    console.log(btn)
+    function mouseDown(){
+        btn.innerHTML = "the mouse button is held down"
+    }
+    function mouseUp(){
+        btn.innerHTML = "mouse button is realesed"
+    }
+    
+     </script>
+</body>
+
+</html>

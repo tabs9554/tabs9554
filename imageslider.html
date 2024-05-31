@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .imageshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+.imageClass {
+    display: none;
+}
+.fade {
+    
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Setting a different style for hovering and active */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+</style>
+<body>
+    <div class="imageshow-container">
+      
+        
+        <div class="imageClass fade">
+            <img src="61LEsyQWAAL._SR412,360_.jpg" style="width:100%">
+         
+            
+            <div style="text-align: center;">Image 1</div>
+        </div>
+
+        <div class="imageClass fade">
+            <img src="813ZDwq9-IL._SR412,360_.jpg" style="width:100%">
+           
+            
+            <div style="text-align: center;">Image 2</div>
+        </div>
+
+        <div class="imageClass fade">
+            <img src="51nVYKEaNTL._SR412,360_.jpg" style="width:100%">
+           
+            
+            <div style="text-align: center;">Image 3</div>
+        </div>
+    </div>
+    
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentImage(1)"></span>
+        <span class="dot" onclick="currentImage(2)"></span>
+        <span class="dot" onclick="currentImage(3)"></span>
+    </div>
+    <script>
+        
+        
+        
+        function currentImage(n) {
+    var i;
+    // Get all elements with the class name "imageClass"
+    var images = document.getElementsByClassName("imageClass");
+    // Get all elements with the class name "dot" (navigation dots)
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < images.length; i++) {
+        images[i].style.display = "none";
+    }
+    // Remove the "active" class from all navigation dots
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    // Display the image corresponding to the current index
+    images[n - 1].style.display = "block";
+    // Add the "active" class to the corresponding navigation dot
+    dots[n - 1].className += " active";
+}
+
+// Display the initial image
+currentImage(1);
+    </script>
+</body>
+</html>
